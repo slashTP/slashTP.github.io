@@ -1,0 +1,95 @@
+body {
+	background-color: black;
+}
+
+h1 {
+	color: white;
+	font-family: monospace;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 45px;
+	margin-bottom: 5px;
+	margin-top: 50px;
+}
+
+span {
+	color: white;
+	font-family: monospace;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 15px;
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 110px;
+}
+
+span#two {
+	margin-top: 130px;
+}
+
+span#three {
+	margin-top: 170px;
+}
+
+span#four {
+	margin-top: 190px;
+}
+
+p#subtitle {
+	color: white;
+	font-family: monospace;
+	font-size: 25px;
+	margin-top: 0px;
+}
+
+#back {
+	width: 265px;
+	height: auto;
+}
+
+#main {
+	margin: auto;
+	width: 50%;
+}
+
+.fade-in {
+  animation: fadeIn 2.5s;
+  -webkit-animation: fadeIn 2.5s;
+  -moz-animation: fadeIn 2.5s;
+  -o-animation: fadeIn 2.5s;
+  -ms-animation: fadeIn 2.5s;
+} @keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+} @-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+} @-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+} @-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+} @-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}
