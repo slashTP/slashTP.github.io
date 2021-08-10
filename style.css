@@ -2,54 +2,54 @@ body {
 	background-color: black;
 }
 
+/* Div principal */
+#content {
+	text-align: center;
+	width: 50%;
+	margin: auto;
+}
+
 h1 {
 	color: white;
-	font-family: monospace;
-	font-weight: bold;
-	font-style: italic;
-	font-size: 45px;
-	margin-bottom: 5px;
-	margin-top: 50px;
+	font-family: "Lucida Console";
+	font-weight: normal;
+	font-size: 40px;
+	margin-bottom: 0px;
+}
+
+h2 {
+	color: white;
+	font-family: "Lucida Console";
+	font-size: 15px;
+	font-weight: normal;
+	margin-top: 0px;
+}
+
+img {
+	width: 215px;
+	height: auto;
+}
+
+#subs {
+	justify-content: center;
+	display: flex;
 }
 
 span {
 	color: white;
-	font-family: monospace;
-	font-style: italic;
+	font-family: "Lucida Console";
 	font-weight: normal;
-	font-size: 15px;
-	position: absolute;
-	margin-left: 50px;
-	margin-top: 110px;
+	font-style: oblique;
+	font-size: 13px;
 }
 
-span#two {
-	margin-top: 130px;
-}
-
-span#three {
-	margin-top: 170px;
-}
-
-span#four {
-	margin-top: 190px;
-}
-
-p#subtitle {
-	color: white;
-	font-family: monospace;
-	font-size: 25px;
+p {
 	margin-top: 0px;
+	margin-bottom: 1px;
 }
 
-#back {
-	width: 265px;
-	height: auto;
-}
-
-#main {
-	margin: auto;
-	width: 50%;
+p#detail {
+	white-space: nowrap;
 }
 
 .fade-in {
